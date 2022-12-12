@@ -1,7 +1,7 @@
 # SIMH v3.12
 ### The Computer History Simulation Project 
 
-Current Official version:  v3.12-3  (announced 2022.12.12))
+Current Official version:  v3.12-3  (announced 2022.12.12)
 
 ## This is a copy of *SIMH v3.12-3* from Bob Supnik's web site.
 
