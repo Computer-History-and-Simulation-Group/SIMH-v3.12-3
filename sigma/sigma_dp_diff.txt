@@ -1,0 +1,16 @@
+28d27
+<    09-Dec-22    RMS     Invalid address must set a TDV-visible error flag (Ken Rector)
+776d774
+<             ctx->dp_flags |= DPF_PGE;
+806d803
+<             ctx->dp_flags |= DPF_PGE;
+831d827
+<             ctx->dp_flags |= DPF_PGE;
+857d852
+<             ctx->dp_flags |= DPF_PGE;
+878d872
+<             ctx->dp_flags |= DPF_PGE;
+1004c998
+<     st = ((dp_ctx[cidx].dp_flags & (DPF_IVA|DPF_PGE))? 0x20: 0) |
+---
+>     st = ((dp_ctx[cidx].dp_flags & DPF_IVA)? 0x20: 0) |
